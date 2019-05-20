@@ -63,9 +63,9 @@ $(document).ready(function () {
 
     $(window).load(function()
     { 
-        $(".loading-page .sk-cube-grid").fadeOut(500,
+        $(".loading-page .sk-cube-grid").fadeOut(100,
         function(){
-            $(".loading-page").fadeOut(50);
+            $(".loading-page").fadeOut(100);
         });
     });
     
